@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="516.0" prefWidth="800.0" text="Inscription" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+         <children>
+            <Label layoutX="357.0" layoutY="45.0" text="Inscription" />
+            <Label layoutX="144.0" layoutY="108.0" text="e-mail" />
+            <Label layoutX="144.0" layoutY="160.0" text="mot de passe" />
+            <Label layoutX="144.0" layoutY="211.0" text="mot de passe - confirmation" />
+            <Label layoutX="144.0" layoutY="270.0" text="Pseudo" />
+            <TextField fx:id="tf_email" layoutX="380.0" layoutY="102.0" />
+            <TextField fx:id="tf_mdp" layoutX="380.0" layoutY="154.0" />
+            <TextField fx:id="tf_mdrconf" layoutX="380.0" layoutY="205.0" />
+            <TextField fx:id="tf_pseudo" layoutX="380.0" layoutY="258.0" />
+            <Label layoutX="253.0" layoutY="309.0" text="Tout les champs doivent être remplis" />
+            <Button fx:id="btn_valider" layoutX="360.0" layoutY="348.0" mnemonicParsing="false" onAction="#validerInscription" text="Valider" />
+            <Label layoutX="269.0" layoutY="400.0" text="Un des champs n'est pas remplie" />
+         </children></AnchorPane>
+  </content>
+</TitledPane>

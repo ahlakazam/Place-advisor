@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" text="Identification" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.unice.iut.info.methodo.s3a.controller.Connexion">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+         <children>
+            <Button fx:id="btn_connect" layoutX="264.0" layoutY="266.0" mnemonicParsing="false" onAction="#goToHomePage" text="Connecter" />
+            <PasswordField fx:id="tf_pwd" layoutX="225.0" layoutY="162.0" promptText="password" />
+            <TextField fx:id="tf_user" layoutX="225.0" layoutY="98.0" promptText="identifiant" />
+         </children></AnchorPane>
+  </content>
+</TitledPane>

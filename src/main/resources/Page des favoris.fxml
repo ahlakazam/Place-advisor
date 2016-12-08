@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="682.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.unice.iut.info.methodo.s3a.controller.SavedItineraires">
+   <children>
+      <AnchorPane maxWidth="1.7976931348623157E308" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Label layoutX="238.0" layoutY="14.0" text="Place Advisor (logo)">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </Label>
+            <Label alignment="CENTER" layoutX="233.0" layoutY="126.0" text="Itinéraires sauvegardés" />
+            <TableView fx:id="tableau_favoris" layoutX="35.0" layoutY="190.0" prefHeight="400.0" prefWidth="515.0">
+               <columns>
+                  <TableColumn fx:id="tableau_favoris_nom" prefWidth="363.0" text="Nom" />
+                  <TableColumn fx:id="tableau_favoris_budget" prefWidth="151.0" text="Budget" />
+               </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+      <Button fx:id="button_home" layoutX="24.0" layoutY="20.0" mnemonicParsing="false" onAction="#toHome">
+         <graphic>
+            <ImageView fx:id="image_home" fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>
